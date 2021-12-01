@@ -1,0 +1,38 @@
+body {
+  background-color: #b632eb;
+}
+
+.ContainerIndo {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #45f122;
+}
+
+.cardsIndo {
+  display: flex;
+  width: 320px;
+  height: 240px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 100px;
+  background-color: #0ca014;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4),
+    -1px -1px 5px rgba(255, 255, 255, 0.6);
+}
+
+.cardsIndo p.title {
+  font-size: 48px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin: 0px;
+}
+
+.cardsIndo p.text {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin: 0px;
+}

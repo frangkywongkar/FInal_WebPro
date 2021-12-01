@@ -1,0 +1,68 @@
+.containerrr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerrr form input {
+  margin-top: 0px;
+  width: 300px;
+  height: 30px;
+  border-radius: 100px;
+}
+
+.ContainerProvinsi {
+  display: flex;
+  flex-direction: unset;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0px;
+  background-color: #2676ee;
+}
+
+.cardProvinsi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 200px;
+  width: 256px;
+  border-radius: 30px;
+  background-color: #1417c7;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4),
+    -1px -1px 5px rgba(255, 255, 255, 0.6);
+  margin: 10px 10px;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.cardChild {
+  display: flex;
+  width: 80px;
+  /* border-right: 1px solid white; */
+  border-left: 4px solid white;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  height: 50%;
+  padding-left: 4px;
+}
+
+.cardProvinsi p.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(233, 230, 230);
+  margin: 0px;
+}
+
+.cardProvinsi p.text {
+  font-weight: bold;
+  color: rgb(238, 234, 234);
+}
